@@ -1,0 +1,8 @@
+{
+  "name": "ui-polish",
+  "version": "0.1.0",
+  "description": "Design-mirror pass that fixes bad AI frontend output. Captures the current UI state, extracts a reference design system (colors, spacing, type scale, radii, shadows) from a real site's CSS or the user's design tokens file, diffs the two, and applies presentation-only fixes in small batches until visual parity. Never touches functionality.",
+  "author": { "name": "Roman's zcode agent" },
+  "skills": "./skills",
+  "commands": "./commands"
+}

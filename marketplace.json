@@ -1,0 +1,13 @@
+{
+  "name": "ui-polish-marketplace",
+  "plugins": [
+    {
+      "name": "ui-polish",
+      "source": "./",
+      "version": "0.1.0",
+      "description": "Design-mirror pass that fixes bad AI frontend output. Captures the current UI state, extracts a reference design system (colors, spacing, type scale, radii, shadows) from a real site's CSS or the user's design tokens file, diffs the two, and applies presentation-only fixes in small batches until visual parity. Never touches functionality. Note: pixel-level visual parity cannot be guaranteed; the loop stops when the user says it looks right or the diff stops shrinking.",
+      "displayName": "UI Polish",
+      "category": "developer-tools"
+    }
+  ]
+}
